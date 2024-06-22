@@ -1,16 +1,6 @@
-# cse_university_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![1](https://github.com/ErenBal1/CSE-ISTUN/assets/128086424/bd019a0c-612c-4eeb-9362-592a1b6d04ea)
+![2](https://github.com/ErenBal1/CSE-ISTUN/assets/128086424/85c2c7b7-ed88-45ec-ba3b-1e40b381365b)
+![3](https://github.com/ErenBal1/CSE-ISTUN/assets/128086424/c910a339-bf1a-493e-92be-7baebbe16491)
+![4](https://github.com/ErenBal1/CSE-ISTUN/assets/128086424/d7ac6d8e-cd31-4364-9144-d6f10a16ec68)
+![5](https://github.com/ErenBal1/CSE-ISTUN/assets/128086424/75e24b06-84e4-41d4-ac5c-88fc440f566b)
+![6](https://github.com/ErenBal1/CSE-ISTUN/assets/128086424/b14c6f9d-56d2-4932-8753-f0d6867684c8)

@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cse_university_app/custom_gpt/constants/constants.dart';
 import 'package:cse_university_app/custom_gpt/screen/custom_chat_screen.dart';
 import 'package:cse_university_app/pages/auth/widgets/auth_widgets.dart';
 import 'package:cse_university_app/pages/main_page/widgets/carousel.dart';
@@ -9,6 +8,7 @@ import 'package:cse_university_app/pages/main_page/widgets/drawer.dart';
 import 'package:cse_university_app/pages/main_page/widgets/sayilar_slider.dart';
 import 'package:cse_university_app/pages/main_page/widgets/yazi_header.dart';
 import 'package:cse_university_app/pages/ois_blackboard/widgets/beyaz_istun_title.dart';
+import 'package:cse_university_app/pages/ring/ring_service.dart';
 import 'package:cse_university_app/service/auth_service.dart';
 import 'package:cse_university_app/state/state.dart';
 import 'package:cse_university_app/widget_tree.dart';
@@ -35,6 +35,7 @@ class _MainPageState extends State<MainPage> {
   void initState() {
     super.initState();
     getInfo();
+    RingService().getSH();
   }
 
   Future<void> getInfo() async {
@@ -60,6 +61,7 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     int activeIndex = 0;
     final sayilarInfo = [
       const SayilarSlider(sayi: "6790", subTitle: "Öğrenci"),

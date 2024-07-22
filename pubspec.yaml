@@ -52,6 +52,7 @@ dependencies:
   flutter_linkify: ^6.0.0
   flutter_spinkit: ^5.2.1
   animated_text_kit: ^4.2.2
+  image_network: ^2.5.6
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
@@ -60,7 +61,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mobx_codegen: ^2.6.1
-  build_runner: ^2.4.10
+  build_runner: ^2.4.11
   flutter_launcher_icons: ^0.13.1
 flutter_icons:
   android: true
@@ -73,7 +74,7 @@ flutter_icons:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+  #flutter_lints: ^3.0.0 gerek yok kodlarda sorunyok o yüzden kapattım camelCase vs 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

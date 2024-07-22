@@ -71,7 +71,7 @@ class _ClubPageState extends State<ClubPage> {
                                           0.80,
                                       height:
                                           MediaQuery.of(context).size.height *
-                                              0.35,
+                                              0.36,
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
